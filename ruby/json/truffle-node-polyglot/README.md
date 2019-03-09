@@ -1,2 +1,2 @@
-docker build -t json-truffle .
-docker run -it json-truffle
+docker build -t json-truffle-node .
+docker run -it json-truffle-node

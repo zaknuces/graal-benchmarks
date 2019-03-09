@@ -1,9 +1,8 @@
-require 'benchmark/ips'
+require 'benchmark'
 require 'json'
 
-Benchmark.ips do |x1|
-  x1.iterations = 3
-  x1.report("json test") {
+Benchmark.bm do |x|
+  x.report {
     jobj = JSON.parse(File.read('1.json'))
     coordinates = jobj['coordinates']
     len = coordinates.length

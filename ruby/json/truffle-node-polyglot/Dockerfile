@@ -14,4 +14,4 @@ RUN bundle install
 
 COPY . .
 
-CMD ruby --jvm --polyglot -Xsingle_threaded test.rb
+CMD sh run.sh

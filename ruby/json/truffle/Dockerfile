@@ -14,4 +14,4 @@ RUN bundle install
 
 COPY . .
 
-CMD ruby test.rb
+CMD sh run.sh
