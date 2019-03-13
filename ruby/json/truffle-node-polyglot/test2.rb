@@ -1,5 +1,4 @@
 require 'benchmark'
-#require 'json'
 
 Benchmark.bm do |x|
   x.report {

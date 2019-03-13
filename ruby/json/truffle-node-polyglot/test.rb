@@ -1,5 +1,4 @@
 require 'benchmark/ips'
-require 'json'
 
 Benchmark.ips do |x1|
   x1.iterations = 3
