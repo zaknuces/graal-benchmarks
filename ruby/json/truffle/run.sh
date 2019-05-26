@@ -1,7 +1,7 @@
 #!/bin/sh
 echo 'Run IPS test'
-ruby --jvm test.rb
+ruby --jvm test-ips.rb
 echo 'Run time benchmark'
-ruby --jvm test2.rb
+ruby --jvm test-profile.rb
 echo 'Run time benchmark native'
-ruby --native test2.rb
+ruby --native test-profile.rb

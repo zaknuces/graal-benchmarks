@@ -1,7 +1,7 @@
 require 'benchmark'
 require 'json'
 
-Benchmark.bm do |x|
+enchmark.bm do |x|
   x.report {
     jobj = JSON.parse(File.read('1.json'))
     coordinates = jobj['coordinates']
