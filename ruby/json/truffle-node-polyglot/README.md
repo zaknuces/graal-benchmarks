@@ -6,3 +6,6 @@ docker run -it json-truffle-node
 
 ## Run cpusampler 
 ruby --polyglot --experimental-options --single-threaded --cpusampler --cpusampler.Mode=statements test-profile.rb
+
+## Run Python example
+ruby --jvm --polyglot test-time-py.rb
