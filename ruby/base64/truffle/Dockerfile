@@ -13,4 +13,4 @@ RUN bundle install
 
 COPY . .
 
-CMD ruby test.rb
+CMD ruby --jvm test.rb
